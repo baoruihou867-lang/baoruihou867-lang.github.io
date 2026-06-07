@@ -346,6 +346,21 @@ button:hover {
   font-size: 14px;
 }
 
+.dictionary-note {
+  max-width: 1180px;
+  margin: 0 auto 18px;
+  padding: 12px 14px;
+  color: var(--muted);
+  background: #eef4f1;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.dictionary-note strong {
+  color: var(--teal);
+}
+
 .load-more-wrap {
   display: flex;
   justify-content: center;

@@ -33,10 +33,11 @@ function matchingCards() {
 function updateStatus(totalMatches, visibleCount) {
   if (!searchStatus) return;
   if (totalMatches === 0) {
-    searchStatus.textContent = "No matching terms. Try another English word, Chinese word, or site object.";
+    searchStatus.textContent =
+      "\u6ca1\u6709\u627e\u5230\u5339\u914d\u8bcd\u6761\u3002\u53ef\u4ee5\u6362\u4e00\u4e2a\u82f1\u6587\u8bcd\u3001\u4e2d\u6587\u8bcd\u6216\u73b0\u573a\u5b9e\u4f53\u8bcd\u3002";
     return;
   }
-  searchStatus.textContent = `Showing ${visibleCount} of ${totalMatches} matching terms.`;
+  searchStatus.textContent = `\u5f53\u524d\u663e\u793a ${visibleCount} / ${totalMatches} \u4e2a\u5339\u914d\u8bcd\u6761\u3002`;
 }
 
 function applyFilters({ resetLimit = false } = {}) {
