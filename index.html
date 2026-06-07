@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>工程英语学习站 | Engineering English</title>
+    <meta
+      name="description"
+      content="面向工程、制造、机械、电气和项目沟通场景的工程英语词汇、表达、邮件模板和学习资料。"
+    />
+    <meta name="keywords" content="工程英语, engineering English, 工程英语词汇, 技术英语, 机械英语, 电气英语, 项目英语" />
+    <meta name="author" content="Engineering English" />
+    <meta property="og:title" content="工程英语学习站" />
+    <meta
+      property="og:description"
+      content="搜索工程英语词汇、短语、邮件句型和真实工程沟通表达。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta name="theme-color" content="#153c43" />
+    <link rel="canonical" href="https://example.com/" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="工程英语学习站首页">
+        <span class="brand-mark">EE</span>
+        <span>工程英语学习站</span>
+      </a>
+      <nav aria-label="主要导航">
+        <a href="#dictionary">词汇搜索</a>
+        <a href="#patterns">场景表达</a>
+        <a href="#templates">邮件模板</a>
+        <a href="#roadmap">学习路线</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Engineering English for real work</p>
+          <h1>工程英语，从图纸、设备、现场和邮件里学。</h1>
+          <p>
+            一个专门整理工程英语的资料站：词汇解释、常用短语、项目沟通句型、邮件模板和学习路线。
+            先做成轻量版，方便上线、被搜索引擎收录，也方便后续继续扩充内容。
+          </p>
+          <form class="search-panel" role="search" aria-label="搜索工程英语内容">
+            <label for="searchInput">搜索词汇或场景</label>
+            <div class="search-row">
+              <input
+                id="searchInput"
+                name="q"
+                type="search"
+                placeholder="例如 tolerance, commissioning, 变更, 质量问题"
+                autocomplete="off"
+              />
+              <button type="submit">搜索</button>
+            </div>
+          </form>
+        </div>
+        <div class="hero-visual" aria-label="工程英语内容结构示意">
+          <div class="blueprint">
+            <span class="line line-a"></span>
+            <span class="line line-b"></span>
+            <span class="line line-c"></span>
+            <span class="node node-a">drawing</span>
+            <span class="node node-b">tolerance</span>
+            <span class="node node-c">handover</span>
+            <span class="node node-d">inspection</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="dictionary" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Dictionary</p>
+          <h2>工程英语词汇搜索</h2>
+        </div>
+        <div id="results" class="result-grid" aria-live="polite">
+          <article class="result-card">
+            <h3>tolerance <span lang="zh-CN">/ 公差</span></h3>
+            <p>The acceptable variation from a specified dimension or value.</p>
+            <p><strong>Example:</strong> The shaft diameter is within tolerance.</p>
+            <div class="term-meta">
+              <span class="tag">drawing</span>
+              <span class="tag">quality</span>
+              <span class="tag">dimension</span>
+            </div>
+          </article>
+          <article class="result-card">
+            <h3>commissioning <span lang="zh-CN">/ 调试 / 投运</span></h3>
+            <p>The process of testing and preparing equipment or a system for operation.</p>
+            <p><strong>Example:</strong> Commissioning will start after installation is complete.</p>
+            <div class="term-meta">
+              <span class="tag">equipment</span>
+              <span class="tag">site</span>
+              <span class="tag">project</span>
+            </div>
+          </article>
+          <article class="result-card">
+            <h3>nonconformance <span lang="zh-CN">/ 不符合项</span></h3>
+            <p>A failure to meet a requirement, specification, or standard.</p>
+            <p><strong>Example:</strong> Please issue a nonconformance report for this batch.</p>
+            <div class="term-meta">
+              <span class="tag">quality</span>
+              <span class="tag">inspection</span>
+              <span class="tag">NCR</span>
+            </div>
+          </article>
+          <article class="result-card">
+            <h3>lead time <span lang="zh-CN">/ 交期 / 前置时间</span></h3>
+            <p>The time required from order, request, or approval to delivery.</p>
+            <p><strong>Example:</strong> The supplier confirmed a lead time of four weeks.</p>
+            <div class="term-meta">
+              <span class="tag">supply chain</span>
+              <span class="tag">schedule</span>
+            </div>
+          </article>
+          <article class="result-card">
+            <h3>change request <span lang="zh-CN">/ 变更申请</span></h3>
+            <p>A formal request to change scope, design, cost, schedule, or requirements.</p>
+            <p><strong>Example:</strong> The design update must be submitted as a change request.</p>
+            <div class="term-meta">
+              <span class="tag">project</span>
+              <span class="tag">scope</span>
+              <span class="tag">cost</span>
+            </div>
+          </article>
+          <article class="result-card">
+            <h3>acceptance criteria <span lang="zh-CN">/ 验收标准</span></h3>
+            <p>The conditions that must be met before work, parts, or systems can be accepted.</p>
+            <p><strong>Example:</strong> Please confirm the acceptance criteria before production.</p>
+            <div class="term-meta">
+              <span class="tag">quality</span>
+              <span class="tag">contract</span>
+              <span class="tag">inspection</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="patterns" class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Workplace Patterns</p>
+          <h2>常见工程沟通表达</h2>
+        </div>
+        <div class="pattern-grid">
+          <article>
+            <h3>确认需求</h3>
+            <p>Could you confirm the required tolerance and surface finish?</p>
+            <span>请确认要求的公差和表面处理。</span>
+          </article>
+          <article>
+            <h3>说明问题</h3>
+            <p>We found a deviation during incoming inspection.</p>
+            <span>我们在来料检验中发现了偏差。</span>
+          </article>
+          <article>
+            <h3>推动进度</h3>
+            <p>Please share the updated schedule and the next action owner.</p>
+            <span>请提供更新后的计划以及下一步负责人。</span>
+          </article>
+          <article>
+            <h3>提出变更</h3>
+            <p>This change may affect cost, lead time, and validation scope.</p>
+            <span>此变更可能影响成本、交期和验证范围。</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="templates" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Email Templates</p>
+          <h2>工程邮件模板</h2>
+        </div>
+        <div class="template-list">
+          <article>
+            <h3>询问技术参数</h3>
+            <p>
+              Dear team, could you please provide the latest drawing, specification sheet,
+              and acceptance criteria for this part? We need them to complete the review.
+            </p>
+          </article>
+          <article>
+            <h3>反馈质量异常</h3>
+            <p>
+              During inspection, we identified a nonconformance related to dimension A.
+              Please review the attached report and advise the containment action.
+            </p>
+          </article>
+          <article>
+            <h3>会议后跟进</h3>
+            <p>
+              Thanks for the discussion today. Below are the agreed actions, owners, and
+              target dates. Please let me know if anything needs correction.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Roadmap</p>
+          <h2>建议学习路线</h2>
+        </div>
+        <ol class="roadmap">
+          <li><strong>基础词汇</strong><span>材料、尺寸、公差、加工、质量、设备、项目节点。</span></li>
+          <li><strong>场景句型</strong><span>确认需求、描述异常、推动进度、风险升级、会议跟进。</span></li>
+          <li><strong>真实输出</strong><span>写邮件、做会议纪要、整理问题清单、解释图纸和规格书。</span></li>
+          <li><strong>行业专题</strong><span>机械、电气、土建、制造、供应链、测试验证。</span></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <p>工程英语学习站 - 持续更新工程词汇、表达和模板。</p>
+      <a href="#top">返回顶部</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
